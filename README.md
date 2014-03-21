@@ -5,6 +5,7 @@ License: (MIT) Copyright (C) 2014 versionCheck Author Phil Chen
 ## DESCRIPTION:
 
 A BASH function that checks to see if a minimum version requirement is met.
+Takes in consideration you can't treat a version number like a floating point.
 
 ## Example
 
