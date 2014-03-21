@@ -1,14 +1,6 @@
-# versionCheck
+#!/bin/bash
 
-License: (MIT) Copyright (C) 2014 versionCheck Author Phil Chen
-
-## DESCRIPTION:
-
-A BASH function that checks to see if a minimum version requirement is met.
-
-## Example
-
-```bash
+# License: (MIT), Copyright (C) 2014 versionCheck Author Phil Chen
 
 source versionCheck.sh
 
@@ -24,4 +16,3 @@ if [ $RESULT -eq 1 ]; then
 else
     echo "FAILED (Ruby 2.1.1 minimum version requirement)"
 fi
-```
